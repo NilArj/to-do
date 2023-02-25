@@ -1,6 +1,6 @@
-# TO-DO app 
+# Weather app 
 
-This is a responsive To-Do app built with HTML, CSS, and JavaScript.
+This is a weather app page built with HTML, CSS, JavaScript, and a weather API.
 
 ## Table of Contents
 + [Features](#Features)
@@ -10,22 +10,20 @@ This is a responsive To-Do app built with HTML, CSS, and JavaScript.
 
 
 ## Features
-+ Add new tasks 
-+ Mark tasks as completed
-+ Delete tasks
-+ Responsive design for desktop and mobile screens
++ View current weather conditions for a specified location
+
 
 ## Technologies Used
 + HTML
 + CSS
 + JavaScript
++ Weather API
 
 ## Usage
-+ Add a new task by entering a task and clicking the "Add" button
-+ Mark a task as completed by clicking the checkbox next to the task 
-+ Delete a task by clicking the "trash" button next to the task 
++ Enter a city or country in the input fields and click the "Get Weather" button to view the current weather conditions for the specified location
+
 
 
 ## Credits
-+ [Ionicos](https://ionic.io/ionicons/) for the icons used in the services section
 + [Google Fonts](https://fonts.google.com/) for the font used in the website
++ [OpenWeatherMap](https://openweathermap.org/api) for the weather API

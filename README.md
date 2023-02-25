@@ -1,4 +1,4 @@
-# TO DO page
+# TO-DO app 
 
 This is a responsive To-Do app built with HTML, CSS, and JavaScript.
 

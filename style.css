@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #ffd89b;
+  background: linear-gradient(to top, #ffd89b, #19547b);
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+.contenedor {
+  height: 600px;
+  margin: 0 auto;
+  max-width: 80%;
+  width: 400px;
+}
+
+.perfil h1 {
+  color: rgba(255, 255, 255, 0.969);
+}
+
+.perfil span {
+  color: rgba(255, 255, 255, 0.969);
+  letter-spacing: 1px;
+}
+
+#fecha {
+  color: rgba(255, 255, 255, 0.969);
+  padding: 50px 0 5px 0;
+}
+
+.agregar-tarea {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.969);
+  border-radius: 15px;
+  display: flex;
+  gap: 70px;
+  height: 70px;
+  margin: 40px 0;
+  padding: 10px;
+}
+
+.agregar-tarea input {
+  background-color: rgba(255, 255, 255, 0.969);
+  border-radius: 8px;
+  border: none;
+  color: #19547b;
+  font-size: 1.5rem;
+  padding: 0 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.agregar-tarea ion-icon {
+  font-size: 5rem;
+  color: #19547b;
+}
+
+.agregar-tarea ion-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.agregar-tarea input::placeholder {
+  font-size: 1.1rem;
+  color: #19547b;
+}
+
+.seccion-tarea h3 {
+  color: rgba(255, 255, 255, 0.969);
+  margin-bottom: 20px;
+}
+
+.seccion-tarea li {
+  align-items: center;
+  background: #be985b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.seccion-tarea ion-icon {
+  color: rgba(255, 255, 255, 0.969);
+  font-size: 2.5rem;
+}
+
+.seccion-tarea ion-icon:hover {
+  color: #19547b;
+  cursor: pointer;
+}
+
+.checkmark-circle {
+  background-color: rgba(255, 255, 255, 0.969);
+  border-radius: 50%;
+}
+
+.uncheckmark-circle {
+  background-color: transparent;
+}
+
+.seccion-tarea > ul p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.969);
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, 0.969);
+}

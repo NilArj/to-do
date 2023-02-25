@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="perfil">
+        <div id="fecha"></div>
+        <h1>Hola!</h1>
+        <span>Vamos a cumplir tus metas</span>
+      </div>
+
+      <div class="agregar-tarea">
+        <input type="text" id="input" placeholder="agrega tarea" />
+        <ion-icon id="enter" name="add-circle"></ion-icon>
+      </div>
+      <div class="seccion-tarea">
+        <h3>Estas son tus tareas pendientes</h3>
+        <ul id="lista">
+          <!-- <li>
+            <ion-icon
+              class="circulo"
+              id="0"
+              data="realizado"
+              name="ellipse-outline"
+            ></ion-icon>
+            <p class="text">limpiar</p>
+            <ion-icon
+              class="delete"
+              data="eliminado"
+              id="0"
+              name="trash-outline"
+            ></ion-icon>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
